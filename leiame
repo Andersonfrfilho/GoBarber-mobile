@@ -11,3 +11,5 @@ yarn add -D eslint-plugin-react@^7.19.0 @typescript-eslint/eslint-plugin@latest 
 -- copy dependencies
 yarn add -D dependencies
 yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
+
+cd android;./gradlew clean;cd ..;yarn android
